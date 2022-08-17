@@ -23,6 +23,9 @@ class StackPlates:
             if len(self.elements[i]) < 10:
                 self.elements[i].append(el)
                 break
+                
+    def pop_out(self):
+        return self.elements.pop()            
 
 
 if __name__ == '__main__':
