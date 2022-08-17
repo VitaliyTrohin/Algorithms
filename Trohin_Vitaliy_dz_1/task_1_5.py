@@ -36,3 +36,4 @@ if __name__ == '__main__':
         j += 1
 
     print(my_stack.elements)
+    print(my_stack.pop_out())
