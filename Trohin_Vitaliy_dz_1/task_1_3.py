@@ -46,8 +46,8 @@ print(max_companies)                                                     # O(1) 
 # 2-е решение:
 # Результат: O(n) Линейная
 
-max_value = {}                                         # O(1) Константная
-key_max_value = {}                                     # O(1) Константная
+max_value = {}                                       # O(1) Константная
+key_max_value = {}                                   # O(1) Константная
 max_profit_2 = {}                                      # O(1) Константная
 while len(max_profit_2) < 3:                           # O(1) Константная
     max_value = 0                                      # O(1) Константная
