@@ -49,7 +49,7 @@ print(max_companies)                                                     # O(1) 
 max_value = {}                                         # O(1) Константная
 key_max_value = {}                                     # O(1) Константная
 max_profit_2 = {}                                      # O(1) Константная
-while len(max_profit_2) < 3:                           # O(n) Линейная
+while len(max_profit_2) < 3:                           # O(1) Константная
     max_value = 0                                      # O(1) Константная
     for key, value in companies.items():               # O(n) Линейная
         if max_value < value:                          # O(1) Константная
